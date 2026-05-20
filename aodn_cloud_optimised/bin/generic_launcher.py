@@ -14,3 +14,6 @@ def main():
         1:
     ]
     subprocess.run(command, check=True)
+
+if __name__ == "__main__":
+    sys.exit(main())
